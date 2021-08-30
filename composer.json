@@ -1,5 +1,5 @@
 {
-    "name": "eugene-melbourne-local/json-encrypter-decrypter",
+    "name": "eugene-melbourne-local/json-encoder-decoder",
     "version": "1.0.0",
     "description": "Encodes and Decodes JSON strings",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "beta",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
