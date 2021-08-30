@@ -1,6 +1,5 @@
 {
     "name": "eugene-melbourne-local/json-encoder-decoder",
-    "version": "1.0.0",
     "description": "Encodes and Decodes JSON strings",
     "license": "MIT",
     "authors": [
