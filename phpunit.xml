@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/autoload.php" colors="true" verbose="true" stopOnFailure="false">
+    <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">./src</directory>
+    </include>
+  </coverage>
+  <testsuites>
+    <testsuite name="unit">
+      <directory suffix="Test.php">tests</directory>
+    </testsuite>
+  </testsuites>
+  <php>
+  </php>
+  <logging>
+    <testdoxText outputFile="phpunit.log"/>
+  </logging>
+</phpunit>

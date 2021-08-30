@@ -1,0 +1,29 @@
+{
+    "name": "eugene-melbourne-local/json-encrypter-decrypter",
+    "version": "1.0.0",
+    "description": "Encodes and Decodes JSON strings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Melbourne",
+            "email": "test82987@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JsonEncoderDecoderLocal\\": "src"
+        }
+    },
+     "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
